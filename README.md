@@ -10,7 +10,7 @@ Enable Emmet in VSCode with setting "emmet.includeLanguages": { "javascript": "j
 Then, to create `<div className="foo-bar"></div>`, type **.foo-bar** and press Enter. Voilà.
 
 # Styled Components
-This is an ES6 thing.  First import 'styled' from 'styled-components'.  Create a const component and set it equal to styled.*whatever* then follow that with backtics and end with semicolon.  Normal CSS goes between the backtics.  Finally, use the component in place of the *whatever* element you were going to use.
+This is an ES6 thing.  First import 'styled' from 'styled-components'.  Create a const component and set it equal to styled.*whatever* then follow that with backtics (template literals) and end with semicolon.  Normal CSS goes between the backtics.  Finally, use the component in place of the *whatever* element you were going to use.
 
 ## Example
 In this example "huge" is a prop that serves as toggle for whether to make the font-size 100 or 50 pixels.
@@ -27,3 +27,8 @@ In this example "huge" is a prop that serves as toggle for whether to make the f
       Click Me
       <span className="pumpkin">🎃</span>
     </MyButton>
+
+# React Context
+Context came about in 16.3 and replaces the need for Redux.<br />
+<a href="https://wesbos.com/react-context/">Wes' excellent explaination</a><br />
+<a href="https://reactjs.org/docs/context.html">React official explaination</a>
