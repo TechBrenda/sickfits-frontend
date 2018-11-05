@@ -27,6 +27,9 @@ In this example "huge" is a prop that serves as toggle for whether to make the f
       Click Me
       <span className="pumpkin">🎃</span>
     </MyButton>
+    
+## Server Side Rendering
+Copy <a href="https://github.com/zeit/next.js/blob/master/examples/with-styled-components/pages/_document.js">_document.js</a> to your project in /pages directory.
 
 # React Context
 Context came about in 16.3 and replaces the need for Redux.<br />
