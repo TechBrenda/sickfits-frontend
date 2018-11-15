@@ -35,3 +35,7 @@ Copy <a href="https://github.com/zeit/next.js/blob/master/examples/with-styled-c
 Context came about in 16.3 and replaces the need for Redux.<br />
 <a href="https://wesbos.com/react-context/">Wes' excellent explaination</a><br />
 <a href="https://reactjs.org/docs/context.html">React official explaination</a>
+
+# Apollo Dev Tools (Chrome)
+https://www.apollographql.com/docs/react/features/developer-tooling.html
+
