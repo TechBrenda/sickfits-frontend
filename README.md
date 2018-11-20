@@ -43,3 +43,8 @@ Context came about in 16.3 and replaces the need for Redux.<br />
 # Apollo Dev Tools (Chrome)
 https://www.apollographql.com/docs/react/features/developer-tooling.html
 
+# Cloudinary
+See Settings for "sickfits" Upload Preset
+
+# ToDo
+1. Add a check in CreateItem.js so that the form does not submit until the image upload is complete.
