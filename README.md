@@ -48,3 +48,4 @@ See Settings for "sickfits" Upload Preset
 
 # ToDo
 1. Add a check in CreateItem.js so that the form does not submit until the image upload is complete.
+2. Fix annoying NaN error on Price field on Sell page (CreateItem component).
