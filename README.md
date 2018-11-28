@@ -36,9 +36,9 @@ In this example "huge" is a prop that serves as toggle for whether to make the f
 Copy <a href="https://github.com/zeit/next.js/blob/master/examples/with-styled-components/pages/_document.js">_document.js</a> to your project in /pages directory.
 
 # React Context
-Context came about in 16.3 and replaces the need for Redux.<br />
-<a href="https://wesbos.com/react-context/">Wes' excellent explaination</a><br />
-<a href="https://reactjs.org/docs/context.html">React official explaination</a>
+Context came about in 16.3 and replaces the need for Redux. I read elsewhere that this feature was actually developed by the creator of Redux who was hired by Facebook shortly after announcing Redux.
+* <a href="https://wesbos.com/react-context/">Wes' excellent explaination</a>
+* <a href="https://reactjs.org/docs/context.html">React official explaination</a>
 
 # Apollo Dev Tools (Chrome)
 https://www.apollographql.com/docs/react/features/developer-tooling.html
@@ -46,6 +46,10 @@ https://www.apollographql.com/docs/react/features/developer-tooling.html
 # Cloudinary
 See Settings for "sickfits" Upload Preset
 
+# Stock Photos
+Get great stock photos for example items from https://www.pexels.com.
+
 # ToDo
 1. Add a check in CreateItem.js so that the form does not submit until the image upload is complete.
 2. Fix annoying NaN error on Price field on Sell page (CreateItem component).
+3. Check Nextjs/Apollo sites for the ability to partially update cache, and check on the course again to see if there has been an update to video 23. Partial cache updating is not possible now and is preventing the site's page to load a new item after adding one without manually refreshing the page.
