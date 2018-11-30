@@ -53,3 +53,4 @@ Get great stock photos for example items from https://www.pexels.com.
 1. Add a check in CreateItem.js so that the form does not submit until the image upload is complete.
 2. Fix annoying NaN error on Price field on Sell page (CreateItem component).
 3. Check Nextjs/Apollo sites for the ability to partially update cache, and check on the course again to see if there has been an update to video 23. Partial cache updating is not possible now and is preventing the site's page to load a new item after adding one without manually refreshing the page.
+4. Intercept error in Signup component to create a user friendly error if the unique constraint fails.
