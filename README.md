@@ -59,6 +59,7 @@ Get great stock photos for example items from https://www.pexels.com.
 3. Check Nextjs/Apollo sites for the ability to partially update cache, and check on the course again to see if there has been an update to video 23. Partial cache updating is not possible now and is preventing the site's page to load a new item after adding one without manually refreshing the page.
 4. Intercept error in Signup component to create a user friendly error if the unique constraint fails.
 5. Switch Signin and Signup so that you go to the Signin page to sign up rather than going to the Signup page to sign in.
+6. Figure out why "Sign Out" button is slightly darker and smaller than the other Nav buttons
 
 # Development WorkFlow
 1. Add schema and resolver in backend.
