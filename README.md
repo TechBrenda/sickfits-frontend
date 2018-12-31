@@ -2,8 +2,10 @@
 
 This is the frontend project for the Wesbos course on Advanced React and GraphQL.
 
-# Commands
-npm run dev<br/>
+# Daily Dev Flow
+Run through Daily Dev Flow of backend first.
+
+    npm run dev
 
 # Emmet
 Enable Emmet in VSCode with setting "emmet.includeLanguages": { "javascript": "javascriptreact" }.<br/>
