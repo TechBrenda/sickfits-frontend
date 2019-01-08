@@ -17,7 +17,10 @@ This creates a React component class with a render function.
 
 # VSCode Hotkeys
 * Prettier Auto-formatting: Shift-Alt-F
+* For multiple cursors: place cursor, then hold Alt while clicking more cursor locations (Esc or click elsewhere to reset)
 * Select all instances of a string: Put cursor in the string and press Shift-Ctrl-L
+* To select multiple different strings at once: double-click string, hold Alt, and double click additional strings. These can be copy and pasted and typed around using Home and End.
+* To move a whole line: place cursor on the line, hold Alt, and press up or down
 
 # Styled Components
 This is an ES6 thing.  First import 'styled' from 'styled-components'.  Create a const component and set it equal to styled.*whatever* then follow that with backtics (template literals) and end with semicolon.  Normal CSS goes between the backtics.  Finally, use the component in place of the *whatever* element you were going to use.
@@ -66,5 +69,30 @@ Get great stock photos for example items from https://www.pexels.com.
 # Development WorkFlow
 1. Add schema and resolver in backend.
 2. Flip over to front end.
-3. Build an interface.
+3. Build an interface.  
+   a. Define a const to hold the Mutation or Query
+   
+   <pre><code>const NAME_MUTATION = gql\`\`;
+   const NAME_QUERY = gql\`\`;</code></pre>
+   
+    
+   b. Within the backtics put the mutation or query method that will call the mutation or query, respectively. This will have the same name as the const.
+   
+   <pre><code>mutation NAME_MUTATION($parameter: type) {}
+   query NAME_QUERY($parameter: type) {}</code></pre>
+    
+   c. Within the curly brackets, use a method declared in the backend's schema.graphql (and defined in Mutation.js or Query.js, respectively). That file also give you the parameters and return values you need to include in your method (all layers of it). If the return value is an object, you can specify which member values will be returned.
+   
+   <pre><code>name(parameter: $parameter) {
+     returnObject
+   }</code></pre>
+   
+   If the return value is an object, you can specify which member values will be returned. These values are separated by newlines, not by commas!
+   
+   <pre><code>name(parameter: $parameter) {
+     id
+     name
+     email
+   }</code></pre>
+   
 4. Manage from there...
