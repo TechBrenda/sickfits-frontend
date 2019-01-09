@@ -65,6 +65,7 @@ Get great stock photos for example items from https://www.pexels.com.
 4. Intercept error in Signup component to create a user friendly error if the unique constraint fails.
 5. Switch Signin and Signup so that you go to the Signin page to sign up rather than going to the Signup page to sign in.
 6. Figure out why "Sign Out" button is slightly darker and smaller than the other Nav buttons
+7. Redirect user to main page after login or password reset.
 
 # Development WorkFlow
 1. Add schema and resolver in backend.
